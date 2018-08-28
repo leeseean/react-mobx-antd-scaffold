@@ -1,0 +1,17 @@
+{
+    "typeAcquisition": {
+        "include": [
+            "react",
+            "mobx",
+            "mobx-react",
+            "axios"
+        ]
+    },
+    "compilerOptions": {
+        "target": "ES6",
+        "experimentalDecorators": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
