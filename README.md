@@ -8,3 +8,9 @@
 ###### components目录放公共组件
 ###### utils目录放工具函数
 ###### stores目录存放状态管理数据
+
+## 编码规范
+
+###### jsx编码规范，参考[https://github.com/JasonBoy/javascript/tree/master/react](https://github.com/JasonBoy/javascript/tree/master/react)
+
+###### css编码规范，参考[http://amazeui.org/getting-started/html-css](http://amazeui.org/getting-started/html-css)
