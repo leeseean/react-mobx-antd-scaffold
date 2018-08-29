@@ -2,6 +2,8 @@
     "typeAcquisition": {
         "include": [
             "react",
+            "react-router-dom",
+            "react-loadable",
             "mobx",
             "mobx-react",
             "axios"
