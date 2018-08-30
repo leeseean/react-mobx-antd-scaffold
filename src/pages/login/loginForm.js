@@ -23,7 +23,12 @@ class NormalLoginForm extends React.Component {
                 }
             });
     }
-
+    componentDidMount() {
+        const {loginStore, history} = this.props;
+        if (loginStore.logined) { //如果登陆状态为true。直接跳到首页
+            history.push('/index');
+        }
+    }
     render() {
         const {getFieldDecorator} = this.props.form;
         return (

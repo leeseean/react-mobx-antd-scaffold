@@ -3,9 +3,10 @@
 ###### 使用react-loadable实现按需加载
 ###### 使用ant-design作为第三方UI组件库
 ###### 使用axios发送ajax请求
-###### 使用mobx作为状态管理工具
+###### 使用mobx作为全局状态管理工具,用法可参考[https://www.jianshu.com/p/6a12b3121379](https://www.jianshu.com/p/6a12b3121379)
 ###### pages目录放页面
 ###### components目录放公共组件
+###### global.css放公共样式
 ###### utils目录放工具函数
 ###### stores目录存放状态管理数据
 
