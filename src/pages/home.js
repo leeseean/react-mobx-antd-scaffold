@@ -15,17 +15,13 @@ import Sport from './sport/sport';
 import Login from './login/login';
 import Register from './register/register';
 
-
 @withRouter
 @inject("routerStore")
 @observer
 class Home extends React.Component {
     constructor(props) {
         super(props)
-        // 没有super(props), 后面使用回报错
-        // 定义state
-        // bind方法
-        // 其他初始化工作
+        // 没有super(props), 后面使用回报错 定义state bind方法 其他初始化工作
         this.props.routerStore.history = this.props.history
     }
 
@@ -54,7 +50,7 @@ class Home extends React.Component {
                     <Route path="/sport" component={Sport}/>
                     <Route path="/login" component={Login}/>
                     <Route path="/register" component={Register}/>
-                    <Route path="/" component={Index} exact/>
+                    <Route path="/" component={Login} exact/>
                     <Redirect to={"/"}/>
                 </Switch>
             </div>

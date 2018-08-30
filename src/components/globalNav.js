@@ -1,6 +1,7 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
 import './globalNav.css';
+import Logout from '../components/logout';
 
 const GlobalNav = () => {
     // only consider an event active if its event id is an odd number
@@ -20,6 +21,7 @@ const GlobalNav = () => {
             <NavLink exact to="/sport" isActive={active} activeClassName="global-nav-on">体育</NavLink>
             <NavLink exact to="/poker" isActive={active} activeClassName="global-nav-on">棋牌</NavLink>
             <NavLink exact to="/activity" isActive={active} activeClassName="global-nav-on">VIP招待</NavLink>
+            <Logout/>
         </div>
     );
 };

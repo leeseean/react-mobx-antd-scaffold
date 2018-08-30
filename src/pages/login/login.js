@@ -1,11 +1,11 @@
 import React from 'react';
-import GlobalNav from '../../components/globalNav';
+import './login.css';
+import WrappedNormalLoginForm from './loginForm';
 
 const Login = () => {
     return (
-        <div>
-            <GlobalNav/>
-            <div className="center">登陆页</div>
+        <div className="login-wrap">
+            <WrappedNormalLoginForm/>
         </div>
     );
 };
