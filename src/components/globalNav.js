@@ -1,6 +1,6 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
-import './globalNav.css';
+import './globalNav.styl';
 import Logout from '../components/logout';
 
 const GlobalNav = () => {

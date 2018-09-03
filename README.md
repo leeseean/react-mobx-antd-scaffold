@@ -1,3 +1,6 @@
+## 启动
+###### npm install
+###### npm start
 ## 项目总体结构
 ###### 使用react-router-dom管理前端页面跳转，应用为单页面应用
 ###### 使用react-loadable实现按需加载
